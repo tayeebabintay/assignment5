@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog-page</title>
+
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <nav class="navbar sticky top-0  space-y-4">
+        <div class=" bg-base-100 space-x-96">
+
+            <div class="navbar-start">
+                <button class="btn  bg-lime-400">Blog</button>
+            </div>
+
+
+
+            <div class="navbar-center flex">
+                <img src="assets/logo.png" alt="">
+                <a class="btn btn-ghost text-xl">Donate Bangladesh</a>
+            </div>
+
+
+
+            <div class="navbar-end">
+
+                <div class="stats shadow flex w-40 h-10">
+
+                    <img src="assets/coin.png" alt="">
+
+                    <div class="stat">
+                        <div class="stat-value  text-xs">5500 BDT</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-center  space-x-4">
+            <a href="donation-page.html" class="nav-button" id="button1">Donation</a>
+            <a href="history-page.html" class="nav-button" id="button2">History</a>
+        </div>
+    </nav>
+
+
+    <main>
+        <div class="faq-section">
+
+            <!-- que 1 -->
+            <h1 class="text-4xl space-y-20  font-extrabold">Frequently Asked Questions (FAQ)</h1>
+            <div class="faq-item">
+                <h3 class="faq-question">What is the Document Object Model (DOM)?</h3>
+                <div class="faq-answer">
+                    <p>What is the DOM? The Document Object Model (DOM) is a programming interface for web documents. It
+                        represents the page so that programs can change the document structure, style, and content. The
+                        DOM
+                        represents the document as nodes and objects; that way, programming languages can interact with
+                        the
+                        page.</p>
+                </div>
+            </div>
+
+
+            <!-- que 2 -->
+            <div class="faq-item">
+                <h3 class="faq-question">How do you select an element from the DOM?</h3>
+                <div class="faq-answer">
+                    <p>JavaScript provides several methods to select DOM elements. Such as Using querySelectorAll, Using
+                        querySelector ,Using getElementsByTagName, Using getElementsByClassName, Using getElementById.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- que 3 -->
+            <div class="faq-item">
+                <h3 class="faq-question">What is event delegation in the context of the DOM, and why is it useful?</h3>
+                <div class="faq-answer">
+                    <p>Event delegation refers to the process of using event propagation (bubbling) to handle events at
+                        a higher
+                        level in the DOM than the element on which the event originated. It allows us to attach a single
+                        event
+                        listener for elements that exist now or in the future.</p>
+                </div>
+            </div>
+
+
+            <!-- que 4 -->
+            <div class="faq-item">
+                <h3 class="faq-question">How do you manipulate an element's attributes and styles using the DOM?</h3>
+                <div class="faq-answer">
+                    <p>Changing an element's style (CSS) attributes is one of the ways in which the DOM can be used. For
+                        example, in the code below, the onfocus event handler method is used to change the input
+                        element's
+                        style when the user clicks inside it. When this event occurs, the element's background color
+                        will change
+                        to purple.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
