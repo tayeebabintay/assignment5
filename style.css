@@ -97,7 +97,6 @@
 
 .faq-answer {
     display: none;
-    /* Initially hide the answers */
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;

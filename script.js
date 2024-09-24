@@ -57,25 +57,19 @@ for (var i = 0; i < buttons.length; i++) {
 
 // history page js
 
-
-
-
-// script.js
-
-// Add event listeners to each FAQ question
 document.querySelectorAll('.faq-question').forEach(function (question) {
     question.addEventListener('click', function () {
-        var answer = this.nextElementSibling; // Get the corresponding answer
+        var answer = this.nextElementSibling;
 
-        // Toggle the display of the answer
+
         if (answer.style.display === 'block') {
             answer.style.display = 'none';
         } else {
-            // Hide all answers first
+
             document.querySelectorAll('.faq-answer').forEach(function (ans) {
                 ans.style.display = 'none';
             });
-            // Show the clicked answer
+
             answer.style.display = 'block';
         }
     });
